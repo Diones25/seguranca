@@ -1,4 +1,5 @@
-[
+{
+   "seguranca":[
    {
       "idHex":"616f3cd6236ec9dab7290681",
       "iForncGstaoDocto":"TEMPEST",
@@ -99,3 +100,4 @@
       "pefil":"BRAI0010"
    }
 ]
+}
