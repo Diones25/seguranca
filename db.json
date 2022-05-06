@@ -31,7 +31,7 @@
             ]
          }
       ],
-      "pefil":"BRAI0007"
+      "perfil":"BRAI0007"
    },
    {
       "idHex":"616f3cd6236ec9dab7193685",
@@ -64,7 +64,7 @@
             ]
          }
       ],
-      "pefil":"BRAI0008"
+      "perfil":"BRAI0008"
    },
    {
       "idHex":"616f3cd6236ec9dab8153695",
@@ -97,7 +97,7 @@
             ]
          }
       ],
-      "pefil":"BRAI0010"
+      "perfil":"BRAI0010"
    }
 ]
 }
