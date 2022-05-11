@@ -2,31 +2,54 @@
    "seguranca":[
    {
       "idHex":"616f3cd6236ec9dab7290681",
-      "iForncGstaoDocto":"TEMPEST",
-      "iTpoObjetSegrcCorp":"DEVICE",
-      "qTentvSegrcCorp":0,
-      "cIndcdResptFornc":0,
-      "wParmzDfndo":[
+      "fornecedor": "TEMPEST",
+      "objetoParametrizavel": "DEVICE",
+      "tentativasChamada": 0,
+      "slaFornecedor": 0,
+      "regras": [
          {
-            "cIdtfdParm":"1",
-            "cTpoCpcao":"MENOR_IGUAL",
-            "cTpoObjtv":"SCORE",
-            "rIdtfdParm":"Score para aprovar",
-            "cParamObrig":true,
-            "cColoc":1,
-            "rRtulo":"Score mínimo",
-            "cTpoCpo":"comboBox",
-            "rTitlo":"Score mínimo",
-            "wVlrsDispn":[
+            "codigo": "1",
+            "comparacao": "MENOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
                {
-                  "rRtulo":"texto",
-                  "nVlr":"10"
+                  "valor": "texto",
+                  "codigo": 10
                }
             ],
-            "wVlrsEsclh":[
+            "valoresSelecionados":[
                {
-                  "rRtulo":"texto",
-                  "nVlr":"10"
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ]
+         },
+         {
+            "codigo": "1",
+            "comparacao": "MENOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
+               {
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ],
+            "valoresSelecionados":[
+               {
+                  "valor": "texto",
+                  "codigo": 10
                }
             ]
          }
@@ -34,32 +57,55 @@
       "perfil":"BRAI0007"
    },
    {
-      "idHex":"616f3cd6236ec9dab7193685",
-      "iForncGstaoDocto":"TEMPEST",
-      "iTpoObjetSegrcCorp":"DEVICE",
-      "qTentvSegrcCorp":0,
-      "cIndcdResptFornc":0,
-      "wParmzDfndo":[
+      "idHex":"616f3cd6236ec9dab7290681",
+      "fornecedor": "TEMPEST",
+      "objetoParametrizavel": "DEVICE",
+      "tentativasChamada": 0,
+      "slaFornecedor": 0,
+      "regras": [
          {
-            "cIdtfdParm":"1",
-            "cTpoCpcao":"MAIOR_IGUAL",
-            "cTpoObjtv":"SCORE",
-            "rIdtfdParm":"Score aprovado",
-            "cParamObrig":true,
-            "cColoc":1,
-            "rRtulo":"Score mínimo",
-            "cTpoCpo":"comboBox",
-            "rTitlo":"Score mínimo",
-            "wVlrsDispn":[
+            "codigo": "1",
+            "comparacao": "MENOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
                {
-                  "rRtulo":"texto",
-                  "nVlr":"11"
+                  "valor": "texto",
+                  "codigo": 10
                }
             ],
-            "wVlrsEsclh":[
+            "valoresSelecionados":[
                {
-                  "rRtulo":"texto",
-                  "nVlr":"11"
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ]
+         },
+         {
+            "codigo": "1",
+            "comparacao": "MENOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
+               {
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ],
+            "valoresSelecionados":[
+               {
+                  "valor": "texto",
+                  "codigo": 10
                }
             ]
          }
@@ -67,37 +113,61 @@
       "perfil":"BRAI0008"
    },
    {
-      "idHex":"616f3cd6236ec9dab8153695",
-      "iForncGstaoDocto":"TEMPEST",
-      "iTpoObjetSegrcCorp":"DEVICE",
-      "qTentvSegrcCorp":0,
-      "cIndcdResptFornc":0,
-      "wParmzDfndo":[
+      "idHex":"616f3cd6236ec9dab7290681",
+      "fornecedor": "TEMPEST",
+      "objetoParametrizavel": "DEVICE",
+      "tentativasChamada": 0,
+      "slaFornecedor": 0,
+      "regras": [
          {
-            "cIdtfdParm":"1",
-            "cTpoCpcao":"MAIOR_IGUAL",
-            "cTpoObjtv":"SCORE",
-            "rIdtfdParm":"Score reprovado",
-            "cParamObrig":true,
-            "cColoc":1,
-            "rRtulo":"Score máximo",
-            "cTpoCpo":"comboBox",
-            "rTitlo":"Score mínimo",
-            "wVlrsDispn":[
+            "codigo": "1",
+            "comparacao": "MENOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
                {
-                  "rRtulo":"texto",
-                  "nVlr":"13"
+                  "valor": "texto",
+                  "codigo": 10
                }
             ],
-            "wVlrsEsclh":[
+            "valoresSelecionados":[
                {
-                  "rRtulo":"texto",
-                  "nVlr":"13"
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ]
+         },
+         {
+            "codigo": "1",
+            "comparacao": "MAIOR_IGUAL",
+            "objetivo": "SCORE",
+            "descricao": "Score para aprovar",
+            "obrigatorio": true,
+            "ordenacao": 1,
+            "rotulo": "Score mínimo",
+            "tipoCampo": "comboBox",
+            "titulo": "Score mínimo",
+            "valoresDisponiveis": [
+               {
+                  "valor": "texto",
+                  "codigo": 10
+               }
+            ],
+            "valoresSelecionados":[
+               {
+                  "valor": "texto",
+                  "codigo": 10
                }
             ]
          }
       ],
       "perfil":"BRAI0010"
    }
+   
 ]
 }
